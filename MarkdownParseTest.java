@@ -95,5 +95,7 @@ public class MarkdownParseTest {
         ArrayList<String> links = MarkdownParse.getLinks(contents);
         ArrayList<String> expected = new ArrayList<>();
         assertEquals(expected, links);
+
+        // test git push
     }
 }
