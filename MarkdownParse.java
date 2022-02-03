@@ -31,10 +31,10 @@ public class MarkdownParse {
                      break;
                  }
                  if(nextCloseBracket + 1 == openParen &&
-                 markdown.indexOf("!") != nextOpenBracket - 1) {
-                    toReturn.add(markdown.substring(openParen + 1, closeParen));
-                 }
-           
+                 markdown.indexOf("!") != nextOpenBracket - 1){
+                  toReturn.add(markdown.substring(openParen + 1, closeParen));
+              }
+
             currentIndex = closeParen + 1;
         }
         return toReturn;
