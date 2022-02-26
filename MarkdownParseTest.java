@@ -97,7 +97,7 @@ public class MarkdownParseTest {
         ArrayList<String> expected = new ArrayList<>();
         assertEquals(expected, links);
     }
-    
+
     @Test
     public void snippet1() throws IOException{
         Path fileName = Path.of("snippet1.md");
